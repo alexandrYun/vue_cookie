@@ -1,6 +1,5 @@
 <template>
-        <button>123</button>
-        <!-- <img :src="cookie" alt=""> -->
+    <img :src="cookie" v-on:click="$emit('counterup')">
 </template>
 
 <script>
